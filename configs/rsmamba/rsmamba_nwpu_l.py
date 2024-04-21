@@ -8,10 +8,10 @@ _base_ = [
 
 work_dir = 'work_dirs/rsmamba_nwpu_l'
 
-data_root = '/path_to_data/rsmamba/data/NWPU-RESISC45'
-code_root = '/path_to_data/rsmamba/datainfo/NWPU'
+data_root = 'C:\\Users\\33859\\Documents\\data\\NWPU-RESISC45'
+code_root = 'C:\\Users\\33859\\OneDrive\\Projects\\RSMamba\\datainfo\\NWPU'
 
-batch_size = 16
+batch_size = 1
 train_cfg = dict(max_epochs=500, val_interval=20)
 
 
