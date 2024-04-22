@@ -8,11 +8,11 @@ _base_ = [
 
 work_dir = 'work_dirs/rsmamba_nwpu_b'
 
-data_root = 'C:\\Users\\33859\\Documents\\data\\NWPU-RESISC45'
-code_root = 'C:\\Users\\33859\\OneDrive\\Projects\\RSMamba\\datainfo\\NWPU'
+data_root = '/root/data/NWPU-RESISC45'
+code_root = '/root/repo/RSMamba/datainfo/NWPU'
 
-batch_size = 16
-train_cfg = dict(max_epochs=500, val_interval=20)
+batch_size = 32
+train_cfg = dict(max_epochs=11, val_interval=1)
 
 
 vis_backends = [dict(type='LocalVisBackend'),
