@@ -8,8 +8,8 @@ _base_ = [
 
 work_dir = 'work_dirs/rsmamba_uc_b'
 
-data_root = '/path_to_data/rsmamba/data/UCMerced_LandUse'
-code_root = '/path_to_data/rsmamba/datainfo/UC'
+data_root = '/root/data/UCMerced_LandUse'
+code_root = '/root/repo/RSMamba/datainfo/UC'
 
 batch_size = 16
 train_cfg = dict(max_epochs=500, val_interval=20)
